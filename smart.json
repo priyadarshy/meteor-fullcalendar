@@ -1,10 +1,10 @@
 {
-    "name": "fullcalendar",
+    "name": "fullcalendar-pretty",
     "description": "Full-sized drag and drop event calendar (jQuery plugin)",
-    "homepage": "https://github.com/TimHeckel/meteor-fullcalendar",
-    "author": "Tim Heckel  (http://timheckel.com)",
+    "homepage": "https://github.com/priyadarshy/meteor-fullcalendar",
+    "author": "Ashutosh Priyadarshy  (http://ashuto.sh)",
     "version": "1.6.1",
-    "git": "https://github.com/TimHeckel/meteor-fullcalendar.git",
+    "git": "https://github.com/priyadarshy/meteor-fullcalendar.git",
     "packages": {
         "jquery-ui": "1.9.2"
     }

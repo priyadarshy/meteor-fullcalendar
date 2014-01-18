@@ -1,6 +1,6 @@
 {
     "name": "pretty-fullcalendar",
-    "description": "Full-sized drag and drop event calendar (jQuery plugin)",
+    "description": "Full-sized drag and drop event calendar attempting to make it pretty (jQuery plugin)",
     "homepage": "https://github.com/priyadarshy/meteor-fullcalendar",
     "author": "Ashutosh Priyadarshy  (http://ashuto.sh)",
     "version": "1.6.1",

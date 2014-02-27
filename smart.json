@@ -1,9 +1,9 @@
 {
     "name": "pretty-fullcalendar",
-    "description": "Full-sized drag and drop event calendar attempting to make it pretty (jQuery plugin)",
+    "description": "Full-sized drag and drop event calendar that uses FullCalendar 1.6.3 (jQuery plugin)",
     "homepage": "https://github.com/priyadarshy/meteor-fullcalendar",
-    "author": "Ashutosh Priyadarshy  (http://ashuto.sh)",
-    "version": "1.6.5",
+    "author": "Ashutosh Priyadarshy  (root@ashuto.sh)",
+    "version": "1.6.6",
     "git": "https://github.com/priyadarshy/meteor-fullcalendar.git",
     "packages": {
         "jquery-ui": "1.9.2"

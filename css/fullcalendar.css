@@ -264,7 +264,7 @@ html .fc,
 .fc-event {
 	border: 1px solid #3a87ad; /* default BORDER color */
 	background-color: #3a87ad; /* default BACKGROUND color */
-	color: #fff !important;               /* default TEXT color */
+	color: #fff;               /* default TEXT color */
 	font-size: .85em;
 	cursor: default;
 	}
@@ -347,9 +347,44 @@ a.fc-event,
 .fc-event-hori .ui-resizable-handle {
 	_padding-bottom: 14px; /* IE6 had 0 height */
 	}
-	
-	
-	
+
+
+/* Global Background Styles
+------------------------------------------------------------------------*/
+
+.fc-event.fc-event-background {
+    border-style:        solid;
+    border-top-width:    0;
+    border-right-width:  0;
+    border-bottom-width: 0;
+    border-left-width:   0;
+    font-size:           .85em;
+    cursor:              default;
+    z-index:             7;
+}
+
+.fc-event.fc-event-start.fc-event-background {
+    border-top-width:        0;
+    border-top-left-radius:  0;
+    border-top-right-radius: 0;
+}
+
+.fc-event.fc-event-end.fc-event-background {
+    border-bottom-width:        0;
+    border-bottom-right-radius: 0;
+    border-bottom-left-radius:  0;
+}
+
+.fc-event.fc-event-background-skin {
+    border-color:     #999; /* default BORDER color */
+    background-color: #edb; /* default BACKGROUND color */
+    color:            #777; /* default TEXT color */
+    text-align:       center;
+    opacity:          0.8;
+    filter:           alpha(opacity=80); /* for IE */
+}
+
+
 /* Reusable Separate-border Table
 ------------------------------------------------------------*/
 
